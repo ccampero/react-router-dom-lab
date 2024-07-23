@@ -9,7 +9,7 @@ const initialState = {
 const MailboxForm = (props) => {
     const navigate = useNavigate();
 
- const [formData,setFormData] = useState(initialState);
+ const [formData, setFormData] = useState(initialState);
 
 const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,12 +33,12 @@ const handleSubmit = (e) => {
           id="boxsize"
           name="boxsize"
           value={formData.boxsize}
-          onChange={handleChange}
-        >
+          onChange={handleChange}>
           <option value="small">Small</option>
           <option value="medium">Medium</option>
           <option value="large">Large</option>
         </select>
+        
         <label htmlFor="boxholder">Box Holder:</label>
         <input
           type="text"

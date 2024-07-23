@@ -10,7 +10,7 @@ import { Route, Routes } from 'react-router-dom';
 const App = () => {
   const [mailboxes, setMailboxes] = useState([])
   const addMailbox = (newMailboxData) => {
-    newMailboxData.id = mailboxes.length + 1
+    newMailboxData._id = mailboxes.length + 1;
     setMailboxes([...mailboxes, newMailboxData]);
   };
 
