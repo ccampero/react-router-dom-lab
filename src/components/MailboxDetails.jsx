@@ -14,6 +14,8 @@ return (
       <dl>
         <dt>Box Size:</dt>
         <dd>{mailbox.boxsize}</dd>
+        <dt>Box Number:</dt>
+        <dd>{mailbox._id}</dd>
         <dt>Box Holder:</dt>
         <dd>{mailbox.boxholder}</dd>
       </dl>

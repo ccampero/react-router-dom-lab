@@ -87,10 +87,7 @@ li {
   margin-right: 16px;
 }
 
-.mail-box {
-  border: 2px solid white;
-  padding: 20px;
-}
+
 
 form {
   display: flex;
@@ -111,4 +108,9 @@ textarea {
 
 button {
   background-color: #535bf2;
+}
+
+.mail-box {
+  border: 2px solid green;
+  padding: 20px;
 }

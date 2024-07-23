@@ -1,10 +1,14 @@
 // src/App.jsx
+import './index.css';
+import './App.css';
 import NavBar from './components/NavBar'
 import MailboxDetails from './components/MailboxDetails'
 import MailboxForm from './components/MailboxForm'
 import MailboxList from './components/MailboxList'
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom';
+
+
 
 
 const App = () => {
